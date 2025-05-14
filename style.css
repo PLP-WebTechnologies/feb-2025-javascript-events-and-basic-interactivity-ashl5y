@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2.0;
+    background-color: black;
+    padding: 0;
+    color: antiquewhite;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    line-height: 1.8;
+    background-color: #57e460;
+    padding: 20px;
+}
+
+#hoverBox {
+    background: #d3d3d3;
+    padding: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.mainImage {
+    display: block;
+    margin: 0 auto;
+    border: 15px solid black;
+    border-radius: 10px;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tabBtn {
+  margin-right: 5px;
+}
+
+.tabContent {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
