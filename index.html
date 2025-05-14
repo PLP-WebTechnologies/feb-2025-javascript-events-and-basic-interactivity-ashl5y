@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"]>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Event Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JAVASCRIPT PLAYGROUND</h1>
+
+  <button id="changeBtn">Click Here!</button>
+  <p id="message"></p>
+
+  <div id="hoverBox">Move your cursor around me!</div>
+  <input type="text" id="keyInput" placeholder="Type something...">
+
+  <div id="gallery">
+    <img src="https://images.pexels.com/photos/31859402/pexels-photo-31859402/free-photo-of-woman-running-with-dogs-in-queens-park-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    id="mainImage" class="mainImage" alt="Woman running with dogs" width="420" height="360">
+    <div>
+      <button onclick="changeImage('img1')">Image 1</button>
+      <button onclick="changeImage('img2')">Image 2</button>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tabBtn" data-tab="1">Tab 1</button>
+    <button class="tabBtn" data-tab="2">Tab 2</button>
+  </div>
+  <div class="tabContent" id="tab1">Your details please</div>
+  <div class="tabContent" id="tab2" style="display:none;">Your partner's details please</div>
+
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Submit</button>
+    <p id="formFeedback"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
