@@ -22,7 +22,6 @@ function changeImage(img) {
   if (img === "img2") {main.src = "https://images.pexels.com/photos/32019319/pexels-photo-32019319/free-photo-of-serene-cat-on-stairway-in-istanbul-grove.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2";}
 }
 
-// Tabs
 const tabButtons = document.querySelectorAll(".tabBtn");
 tabButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
@@ -31,7 +30,6 @@ tabButtons.forEach((btn) => {
   });
 });
 
-// Form Validation
 document.getElementById("myForm").addEventListener("submit", (e) => {
   e.preventDefault();
   const name = document.getElementById("name").value.trim();
@@ -52,7 +50,6 @@ document.getElementById("myForm").addEventListener("submit", (e) => {
   document.getElementById("formFeedback").textContent = feedback;
 });
 
-// Real-time Password Feedback
 document.getElementById("password").addEventListener("input", (e) => {
   const feedback = document.getElementById("formFeedback");
   if (e.target.value.length < 8) {
